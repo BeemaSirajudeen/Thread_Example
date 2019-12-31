@@ -20,9 +20,11 @@ class Numbers1 extends Thread
 		}
 	}
 }
-public class Main {
+public class ThreadExample1
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		Numbers thread1=new Numbers();                 //invokes thread class constructor
 		Numbers1 thread2=new Numbers1();
 		thread1.start();                              // Multi_threading
